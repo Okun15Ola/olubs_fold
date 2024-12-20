@@ -1,0 +1,166 @@
+#pc{
+    display:none;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    margin:40px 30px;
+    background-color:black;
+    box-sizing:border-box;
+    height:100%;
+    cursor:pointer;
+}
+header{
+    height:20%;
+}
+#logo{
+    HEIGHT:50PX;
+}
+h1{
+    font-family:impact;
+    color:white;
+    font-size:30pt;
+    margin-top:40px; 
+}
+h4{
+    font-family:impact;
+    color:white;
+    font-size:15pt;
+}
+main{
+    display:flex;
+    flex-direction:column;
+}
+.sign_in_google{
+    height:40px;
+    border-radius: 20px 20px 20px 20px;
+}
+.sign_in_google:hover{
+    background-
+}
+.sign_in{
+    height:40px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #1da1f2;
+    color:white;
+}
+.sig{
+    height:40px;
+    border-radius: 20px 20px 20px 20px;
+    color: #1da1f2;
+    background-color:transparent;
+    border:1px solid white;
+}
+.or{
+    color:white;
+    align-self:center;
+    justify-self:center;
+}
+#txt{
+    font-size:8pt;
+    color: white;
+}
+#txt2{
+    font-size:8pt;
+    color: #1da1f2;
+}
+b{
+    font-family:impact;
+    color:white;
+    font-size:10pt;
+}
+footer{
+    display:flex;
+    flex-direction:column;
+    margin-top:70px;
+}
+#red{
+    align-content:center;
+    align-item:center;
+    justify-content:center;
+    justify-item:center;
+    margin-top:40px;
+}
+p{
+    color:white;
+    text-align:center;
+}
+
+@media only screen and (min-width: 768px){
+#mbl{
+    display:none;
+}
+#div{
+    width:20%;  
+    height:100%;
+    background-color:black;
+}
+h4{
+    margin-top:-0px;
+}
+    #flex{
+    display:flex;
+    align-item:center;
+    justify-contents:center;
+    margin:70px;
+    margin-left:0px;
+    gap:100px;
+}
+#pc{
+    display:block;
+}
+#logo{
+    HEIGHT:350PX;
+}h1{
+    font-family:impact;
+    color:white;
+    font-size:50pt;
+    margin-top:0px; 
+}
+b{
+    font:times new roman;
+}
+#red{
+    align-content:center;
+    align-item:center;
+    justify-content:center;
+    justify-item:center;
+    margin-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+#sigframe{
+    top:100px;
+    display:none;
+    position:fixed;
+    height:65%;
+    right:25%;
+    left:25%;
+    width:40%;
+    border-radius:20px 20px 20px 20px;
+    border:1px solid white;
+}
+#sigframe2{
+    top:100px;
+    display:none;
+    position:fixed;
+    height:65%;
+    right:25%;
+    left:25%;
+    width:40%;
+    border-radius:20px 20px 20px 20px;
+    border:1px solid white;
+}
+span{
+    top:100px;
+    position:fixed;
+    display:none;
+    font-size:25pt;
+    color:white;
+    right:35%;
+    background-color:red;
+    border-radius:100%;
+}
+}

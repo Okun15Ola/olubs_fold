@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/sign in.css">
+</head>
+<body>
+    <img src="../img/x-logo/logo-white.png" alt="" id="logo"> 
+    <main id="mn">
+        <h4>Sign in to X</h4>
+        <button class="sign_in_google"><img>Sign up with Google</button>
+        <button class="sign_in_google"><img>Sign up with Apple</button>
+        <div class="or">----------or----------</div>
+        <input type="text" placeholder="Phone,email, or username" class="sign_intx" id="name" required>
+        <button class="sign_in_google" onclick="pass()"><img>Next</button>
+        <button class="sig"><img>Forgot Password</button>
+       </main> 
+       <main id="main">
+        <h4>Enter your password</h4>
+        <input type="text" placeholder="Phone,email, or username" class="sign_intx" id="nam" value="ghhgh" disabled>
+        <input type="password" placeholder="Password" class="sign_intx" id="pwd" required>
+        <a id="txt2">Forgot password</a>
+       </main>
+      
+       <button class="sign_in_google" id="login" onclick="next()">Login</button>
+       <p id="txt">Don't have an account? <a id="txt2" href="Sign up.html">Sign Up</a></p>
+    <script src="../script/sign in.js"></script>
+</body>
+</html>

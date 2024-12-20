@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <b>Dman</b>
+        <div id="menu">
+            <ul>
+                <b>Home</b>    
+                <b>Home</b>    
+                <b>Home</b>    
+                <b>Home</b>    
+            </ul>
+            <div id="button">
+                <button>Sign In</button>
+                <button>Create Account</button>
+            </div>
+        </div>
+        <div onclick="menu()" id="men">#</div>
+        <div onclick="men()" id="x">X</div>
+        </header>
+    <main>
+        <div class="mainside">
+            <b id="hero">Welcome to a world<span>of tech innovation</span></b>
+            <button>Get started</button>
+        </div>
+        <img src="" alt="image">
+    </main>
+<script>
+    function menu(){
+    const menu = document.querySelector('header');
+    menu.classList.toggle('menu-open');
+    document.getElementById('men').style.display="none";
+    document.getElementById('x').style.display="block";
+}
+function men(){
+    document.querySelector('header').classList.toggle('men-ope');
+    document.getElementById('x').style.display="none";
+    document.getElementById('men').style.display="block";
+}
+</script>    
+</body>
+</html>

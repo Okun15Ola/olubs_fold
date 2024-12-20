@@ -1,0 +1,75 @@
+body{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    margin:20px 30px;
+    background-color:black;
+    box-sizing:border-box;
+    height:100%;
+}
+h4{
+    font-family:impact;
+    color:white;
+    font-size:15pt;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+#main{
+    display:none;
+    flex-direction:column;
+    gap:20px;
+}
+.sign_in_google{
+    height:40px;
+    border-radius: 20px 20px 20px 20px;
+}
+.sig{
+    height:40px;
+    border-radius: 20px 20px 20px 20px;
+    color: #1da1f2;
+    background-color:transparent;
+    border:1px solid white;
+}
+.or{
+    color:white;
+    align-self:center;
+    justify-self:center;
+}
+#txt{
+    font-size:8pt;
+    color: white;
+}
+#txt2{
+    font-size:8pt;
+    color: #1da1f2;
+}
+.sign_intx{
+    height:50px;
+    background-color:transparent;
+    border:2px solid white;
+    color:white;
+}
+.sign_intx:hover{
+   
+    border:2px solid #1da1f2;
+}
+#logo{
+    align-self:center;
+    align-item:center;
+    justify-content:center;
+    justify-self:center;
+    height:25px;
+    width:25px;
+}
+#login{
+    display:none;
+    margin-top:170px;
+}
+.sign_in_google{
+    height:40px;
+    border-radius: 20px 20px 20px 20px;
+    text-align:center;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="mbl">
+    <header>
+        <img src="img/x-logo/logo-white.png" id="logo" alt="" class="logo">
+        <h1>Happening<br>now</h1>
+    </header>
+   <main>
+    <h4>Join today,</h4>
+    <button class="sign_in_google"><img>Sign up with Google</button>
+    <button class="sign_in_google"><img>Sign up with Apple</button>
+    <div class="or">----------or----------</div>
+    <button class="sign_in" onclick="window.location.href='pages/Sign up.html'">Create account</button>
+    <p id="txt">By signing up, you agree to the <a id="txt2">Terms of Service</a>and 
+        <a id="txt2">Privacy Policy</a>,including <a id="txt2">Cookie Use</a>
+   </main> 
+   
+   <footer>
+    <b>Already have an account?</b><br>
+    <button class="sig" onclick="window.location.href='pages/sign in.html'">Sign in</button>
+   </footer>
+   <div id="red">
+    <p>About  Download the X app  Help Center</p>
+    <p>Terms of Service  Privacy Policy  Cookie Policy</p>
+    <p>Accessibility  Ads info  Blog  Careers</p>
+    <p>Brand Resources  Advertising  Marketing</p>
+    <p>X for Buisiness  Developers  Directory  Settings</p>
+    <p>@2024 X Corp</p>
+   </div>
+</div>
+
+
+
+   <div id="pc">
+    <div id="flex">
+        <div id="div"></div>
+    <header>
+        <img src="img/x-logo/logo-white.png" id="logo" alt="" class="logo">
+    </header>
+   <main>
+    <h1>Happening now</h1>
+    <h4>Join today,</h4>
+    <button class="sign_in_google"><img>Sign up with Google</button>
+    <button class="sign_in_google"><img>Sign up with Apple</button>
+    <div class="or">----------or----------</div>
+    <button class="sign_in" onclick="doc3()">Create account</button>
+    <p id="txt">By signing up, you agree to the <a id="txt2">Terms of Service</a>and 
+        <a id="txt2">Privacy Policy</a>,including <a id="txt2">Cookie Use</a>
+        <footer>
+            <b>Already have an account?</b><br>
+            <button class="sig" onclick="doc2()">Sign in</button>
+           </footer>
+    </main> 
+    </div>
+    <div id="red">
+        <p>About  Download the X app  Help Center</p>
+        <p>Terms of Service  Privacy Policy  Cookie Policy</p>
+        <p>Accessibility  Ads info  Blog  Careers</p>
+        <p>Brand Resources  Advertising  Marketing</p>
+        <p>X for Buisiness  Developers  Directory  Settings</p>
+        <p>@2024 X Corp</p>
+       </div>
+   
+<iframe src="pages/sign in.html" frameborder="0" id="sigframe"></iframe>
+<iframe src="pages/Sign up.html" frameborder="0" id="sigframe2"></iframe>
+<span id="span" onclick="doc()">X</span>
+   </div>
+<script>
+    function doc(){
+        document.getElementById('sigframe').style.display='none';
+        document.getElementById('sigframe2').style.display='none';
+        document.getElementById('span').style.display='none';
+    }
+
+    function doc2(){
+        document.getElementById('sigframe').style.display='block';
+        document.getElementById('sigframe2').style.display='none';
+        document.getElementById('span').style.display='block'; 
+        
+   
+    const frame = document.getElementById('sigframe');
+     const frameURL = window; 
+  
+    console.log(frameURL);
+    }
+
+    function doc3(){
+        document.getElementById('sigframe').style.display='none';
+        document.getElementById('sigframe2').style.display='block';
+        document.getElementById('span').style.display='block'; 
+    }
+  
+    function change(){
+        if(frameURL==="file:///C:/Users/user/OneDrive/Desktop/twitter/pages/home.html"){
+            window.location.href="pages/home.html"
+        }
+    }
+</script>
+</body>
+</html>

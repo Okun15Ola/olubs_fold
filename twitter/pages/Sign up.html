@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/sign up.css">
+</head>
+<body>
+    <img src="../img/x-logo/logo-white.png" alt="" id="logo" >
+    <main id="main">
+        <h4>Create your account</h4>
+        <input type="text" placeholder="Name" class="sign_intx"  id="username" required maxlength="15" >
+        <input type="tel" placeholder="Phone" class="sign_intx" required id="tel" accept="number" maxlength="15">
+        <a id="txt2" >Use email instead</a>
+        <div id="age">
+        <b id="b">Date of birth</b>
+        <p>This will not be shown publicly,Confirm your own<br>
+        age,even if this account is for buisness, a pet, or something else</p>
+        </div>
+        <input type="date" placeholder="Date of birth" class="sign_intx" required accept="date">
+       </main>
+
+       <main id="man">
+        <div> 
+        <h4>You will need a password</h4>
+        <p id="txt21">Make sure it's 8 character or more</a></div>
+        <input type="password" placeholder="Password" class="sign_intx" id="passwd" minlength="8">
+       </main>
+       <div id="txt3" class="txt3">
+       <b >By signing up,you agree to  the <a id="txt21">Terms and services</a>and 
+       <a  id="txt21">Privacy Policy</a><br>including <a id="txt21">Cookie Use</a>.X make use your<br>
+    contact information, including your email address and <br>
+phone number for purposes outlined in our Privacy<br>
+Policy, like keeping your account secure and<br>
+personalising our services, including ads. <a id="txt21">Learn more</a>.<br>
+Others will be able to find you by email or phone<br>
+number, when provided, unless you choose otherwise<br>
+here</b></div>
+       <button class="sign_in_google" id="login" onclick="next()">Next</button>
+       <button class="sign_in_google" id="login2" onclick="next2()">finish</button>
+       <script src="../script/sign up.js"></script>
+</body>
+</html>
